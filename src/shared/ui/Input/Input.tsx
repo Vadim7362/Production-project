@@ -1,5 +1,5 @@
 import { classNames } from 'shared/lib/classNames/classNames';
-import React, {
+import {
     InputHTMLAttributes, memo, useEffect, useRef, useState,
 } from 'react';
 import cls from './Input.module.scss';
@@ -73,7 +73,7 @@ export const Input = memo((props: InputProps) => {
                 {isFocused && (
                     <span
                         className={cls.caret}
-                        style={{ left: `${caretPosition * 8}px` }}
+                        style={{ left: `${caretPosition * 9}px` }}
                     />
                 )}
             </div>
