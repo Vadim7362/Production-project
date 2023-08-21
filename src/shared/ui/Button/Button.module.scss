@@ -25,6 +25,12 @@
   background: none;
 }
 
+.outline_red {
+  border: 1px solid var(--red-light);
+  color: var(--red-light);
+  background: none;
+}
+
 .background {
   background: var(--bg-color);
   color: var(--primary-color);
@@ -41,17 +47,17 @@
   padding: 0;
 }
 
-.square.size-m {
+.square.size_m {
   width: var(--font-line-m);
   height: var(--font-line-m);
 }
 
-.square.size-l {
+.square.size_l {
   width: var(--font-line-l);
   height: var(--font-line-l);
 }
 
-.square.size-xl {
+.square.size_xl {
   width: var(--font-line-xl);
   height: var(--font-line-xl);
 }
